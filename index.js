@@ -599,10 +599,5 @@
             audio.play();
         }
     }
-    function playmenu() {
-        var audio = document.getElementById('audiomenu');
-            audio.play();
-        
-    }
     
 
