@@ -577,6 +577,32 @@
             window.location = "sad-ending2.html" 
         }
     })
-    
+    function play() {
+        var audio = document.getElementById('audio1');
+        var audio2 = document.getElementById('audio2');
+        audio.currentTime = 0
+        audio.pause()
+        audio2.pause()
+
+        if (audio.paused) {
+            audio.play();
+        }
+    }
+    function play2() {
+        var audio = document.getElementById('audio2');
+        var audio2 = document.getElementById('audio1');
+        audio.currentTime = 0
+        audio.pause()
+        audio2.pause()
+
+        if (audio.paused) {
+            audio.play();
+        }
+    }
+    function playmenu() {
+        var audio = document.getElementById('audiomenu');
+            audio.play();
+        
+    }
     
 
